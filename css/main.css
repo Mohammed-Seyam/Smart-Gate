@@ -80,6 +80,25 @@ input{
     outline: none;
 }
 
+.modal-content{
+    margin-top:200px;
+}
+
+.modal-backdrop{
+    width: 100%;
+    height: 100%;
+}
+
+/* responsive modal */
+@media(max-width: 991px){
+    .modal{
+        text-align: center;
+    }
+
+    .modal-img{
+        display: none;
+    }
+}
 
 /* responsive nav */
 @media (max-width: 992px){
