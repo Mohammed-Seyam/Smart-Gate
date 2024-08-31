@@ -222,8 +222,17 @@ input{
     .orangeCircle{
         display: none;
     }
+
 }
 
+@media(max-width: 700px){
+    .smart .details h1{
+        font-size: 50px;
+        width: auto;
+        height: auto;
+    }
+    
+}
 
 
 /* end section "smart" */
